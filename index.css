@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .qr-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 250px;
+    width: 70%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .qr-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .qr-card h1 {
+    margin: 1rem 0 0.5rem;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 400, 700;
+     
+  }
+  .qr-card p {
+    font-size: 0.9rem;
+    color: #555;
+    font-family: Outfit;
+    font-weight: 400, 700;
+  }
